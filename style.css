@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 800px;
+    background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-restaurant-menu-background-material-picture-image_1077232.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+.containerr{
+    width: 70%;
+    height: 90%;
+    margin: 100px auto;
+}
+
+
+.sandwich {
+    background-image: url(https://i.blogs.es/0e55d6/sandwich-mixto-rec/840_560.jpg);
+    height: 110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.bebidas {
+    background-image: url(https://i.pinimg.com/originals/f7/e7/92/f7e79224e87d3b67d4b3634fc188bab2.jpg);
+    height: 110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.desayunos {
+    background-image: url(https://i.pinimg.com/originals/db/43/0f/db430facda837e580bc3360f339531e7.jpg);
+    height: 110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.almuerzo {
+    background-image: url(https://astelus.com/wp-content/viajes/Plato-de-milanesa-con-papas-ti%CC%81pico-de-Argentina.jpg);
+    height: 110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
