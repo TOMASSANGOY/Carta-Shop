@@ -2,10 +2,51 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    border-bottom: 2px burlywood solid;
+    padding: 20px 0;
+}
+
+.tituloYprecio {
+    border-bottom: 0.5px dotted rgb(209, 209, 209);
+}
+
+li .titulo {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+li .precio {
+    display: inline-block;
+    margin: 0;
+}
+
+h2 {
+    color: #fff;
+}
+
+.descripcion {
+    font-size: 13px;
 }
 
 body {
-    height: 800px;
+    height: 600px;
     background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-restaurant-menu-background-material-picture-image_1077232.jpg);
     background-size: cover;
     background-size: 100% 100%;
@@ -15,10 +56,10 @@ body {
 }
 
 
-.containerr{
-    width: 70%;
-    height: 90%;
-    margin: 100px auto;
+.containerr {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
 }
 
 
@@ -48,13 +89,38 @@ body {
 
 .almuerzo {
     background-image: url(https://astelus.com/wp-content/viajes/Plato-de-milanesa-con-papas-ti%CC%81pico-de-Argentina.jpg);
+    color: aqua;
     height: 110px;
     background-size: cover;
     background-repeat: no-repeat;
+    font-size: 500px;
 }
 
 
 
+button {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+}
 
 
 
+/* HEADER */
+
+header {
+    height: 50px;
+    margin: 50px auto 20px auto;
+}
+
+header h1 {
+    font-size: 2.2em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.TituloDulces {
+    text-align: center;
+    background-color: antiquewhite;
+    font-weight: 700;
+}
