@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Playfair Display', serif;
     font-weight: 900;
 }
 
@@ -45,7 +43,7 @@ h2 {
     font-size: 13px;
 }
 
-body {
+.fondo-carta {
     height: 600px;
     background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-restaurant-menu-background-material-picture-image_1077232.jpg);
     background-size: cover;
@@ -68,15 +66,20 @@ body {
     height: 110px;
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 
 .bebidas {
-    background-image: url(https://i.pinimg.com/originals/f7/e7/92/f7e79224e87d3b67d4b3634fc188bab2.jpg);
+    background-image: url(https://infonegocios.info/content/images/2022/07/20/12883/conversions/bebidas-sin-alcohol-gaseosas-01-cba-medium-size.jpg);
     height: 110px;
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
+
 
 
 .desayunos {
@@ -84,16 +87,21 @@ body {
     height: 110px;
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
 }
 
 
 .almuerzo {
-    background-image: url(https://astelus.com/wp-content/viajes/Plato-de-milanesa-con-papas-ti%CC%81pico-de-Argentina.jpg);
+    background-image: url(https://scm-assets.constant.co/scm/unilever/2bb5223be0548fcc55c230aa5f951219/ab7a9016-c3f1-444d-a29f-2084e7408128.png);
     color: aqua;
     height: 110px;
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 500px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 
@@ -123,4 +131,92 @@ header h1 {
     text-align: center;
     background-color: antiquewhite;
     font-weight: 700;
+}
+
+/* Index */
+
+.fondo-panal {
+    height: 200px;
+    background-image: url(./imagenes/panal-desde-el-puente.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.ov-btn-slide-close {
+    background: #fff; /* color de fondo */
+    color: brown; /* color de fuente */
+    border: 2px solid black; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 25px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: block;
+    width: 40%;
+    text-align: center;
+    margin: 50% auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .ov-btn-slide-close:before, .ov-btn-slide-close:after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: -50%;
+    background-color: #E59866; /* color de fondo hover */
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .ov-btn-slide-close:after {
+    left: 100%;
+  }
+  .ov-btn-slide-close:hover {
+    color: #fff; /* color de fuente hover */
+  }
+  .ov-btn-slide-close:hover:before {
+    left: 0;
+  }
+  .ov-btn-slide-close:hover:after {
+    left: 50%;
+  }
+
+
+.titul{
+    color: #fff;
+    background-color: #E59866 ;
+    border-radius: 50px;
+    width: 90%;
+    margin: auto;
+}
+
+.titul .h1-titul{
+    text-align: center;
+    font-size: 45px;
+    margin: 50px 10px 0PX 10PX;
+    font-weight: 900;
+    color: #fff;
+    background-color: #E59861 ;
+    border-radius: 50px;
+    padding: 15px;
+    font-family: 'Dancing Script', cursive;
+}
+.titul .h1-titulL{
+    text-align: center;
+    font-size: 35px;
+    margin: 20px 10px 0PX 10PX;
+    font-weight: 900;
+    color: #fff;
+    padding: 15px;
+    font-family: 'Dancing Script', cursive;
+    
 }
