@@ -20,20 +20,31 @@ li {
     padding: 20px 0;
 }
 
+
 .tituloYprecio {
     border-bottom: 0.5px dotted rgb(209, 209, 209);
+    margin-bottom: 10px;
 }
 
 li .titulo {
-    display: inline-block;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 900;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 li .precio {
-    display: inline-block;
-    margin: 0;
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+    background-color: #fddfc9;
+    width: 70px;
+    margin: 10px auto;
+    border-radius: 15px;
 }
+
+
 
 h2 {
     color: #fff;
@@ -41,10 +52,11 @@ h2 {
 
 .descripcion {
     font-size: 13px;
+    text-align: center;
 }
 
 .fondo-carta {
-    height: 600px;
+    height: 100px;
     background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-restaurant-menu-background-material-picture-image_1077232.jpg);
     background-size: cover;
     background-size: 100% 100%;
@@ -57,13 +69,13 @@ h2 {
 .containerr {
     width: 90%;
     height: 100%;
-    margin: 0px auto;
+    margin: 20px auto;
 }
 
 
 .sandwich {
     background-image: url(https://i.blogs.es/0e55d6/sandwich-mixto-rec/840_560.jpg);
-    height: 110px;
+    height: 130px;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Lato', sans-serif;
@@ -84,7 +96,7 @@ h2 {
 
 .desayunos {
     background-image: url(https://i.pinimg.com/originals/db/43/0f/db430facda837e580bc3360f339531e7.jpg);
-    height: 110px;
+    height: 130px;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Lato', sans-serif;
@@ -96,7 +108,7 @@ h2 {
 .almuerzo {
     background-image: url(https://scm-assets.constant.co/scm/unilever/2bb5223be0548fcc55c230aa5f951219/ab7a9016-c3f1-444d-a29f-2084e7408128.png);
     color: aqua;
-    height: 110px;
+    height: 130px;
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 500px;
